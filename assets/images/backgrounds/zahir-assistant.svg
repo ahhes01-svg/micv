@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Asistente Zahir — soporte, código e infraestructura</title>
+  <defs>
+    <linearGradient id="edge" x1="8" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="surface" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#152b45"/><stop offset="1" stop-color="#0c1224"/></linearGradient>
+  </defs>
+  <path d="M18 5h28a13 13 0 0 1 13 13v25a13 13 0 0 1-13 13H33L22 62v-6h-4A13 13 0 0 1 5 43V18A13 13 0 0 1 18 5Z" fill="url(#surface)" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M15 14h10m14 0h10M15 46h10m14 0h10" stroke="url(#edge)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="13" cy="14" r="2" fill="#22d3ee"/><circle cx="51" cy="46" r="2" fill="#8b5cf6"/>
+  <path d="M15 23h13L15 38h13m8-15v15m13-15v15M36 30.5h13" stroke="#eaf8ff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

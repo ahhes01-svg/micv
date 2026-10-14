@@ -1,0 +1,11 @@
+{
+  "name":"Portafolio profesional de Zahir Huamán",
+  "short_name":"Zahir Huamán",
+  "description":"Análisis de datos, desarrollo web y soporte TI.",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#050816",
+  "theme_color":"#050816",
+  "lang":"es-PE",
+  "icons":[{"src":"assets/images/backgrounds/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

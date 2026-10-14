@@ -1,0 +1,26 @@
+[
+  {
+    "file": "lucide.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"
+  },
+  {
+    "file": "typed.umd.js",
+    "url": "https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"
+  },
+  {
+    "file": "gsap.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+  },
+  {
+    "file": "ScrollTrigger.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+  },
+  {
+    "file": "swiper-bundle.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/swiper@11.2.6/swiper-bundle.min.js"
+  },
+  {
+    "file": "swiper-bundle.min.css",
+    "url": "https://cdn.jsdelivr.net/npm/swiper@11.2.6/swiper-bundle.min.css"
+  }
+]

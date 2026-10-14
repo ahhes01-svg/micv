@@ -1,0 +1,54 @@
+[
+  {
+    "name": "openai",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/openai.svg"
+  },
+  {
+    "name": "javascript",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/javascript.svg"
+  },
+  {
+    "name": "html5",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/html5.svg"
+  },
+  {
+    "name": "claude",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/claude.svg"
+  },
+  {
+    "name": "css3",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/css3.svg"
+  },
+  {
+    "name": "typescript",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/typescript.svg"
+  },
+  {
+    "name": "php",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/php.svg"
+  },
+  {
+    "name": "python",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/python.svg"
+  },
+  {
+    "name": "react",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/react.svg"
+  },
+  {
+    "name": "wordpress",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/wordpress.svg"
+  },
+  {
+    "name": "microsoftexcel",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.0.0/icons/microsoftexcel.svg"
+  },
+  {
+    "name": "lucidchart",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/lucid.svg"
+  },
+  {
+    "name": "powerbi",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.0.0/icons/powerbi.svg"
+  }
+]

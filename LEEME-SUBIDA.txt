@@ -1,0 +1,9 @@
+Esta copia contiene los archivos necesarios para subir el proyecto por la web de GitHub.
+
+1. En GitHub, abre tu repositorio y selecciona Add file > Upload files.
+2. Arrastra EL CONTENIDO de esta carpeta, conservando assets, css, js, server, netlify y scripts. index.html debe quedar en la raíz del repositorio.
+3. No subas la carpeta MI CV completa ni un ZIP como sustituto de los archivos del sitio.
+4. La clave real de Gemini no está incluida. Configúrala en el servidor o en las variables de entorno de Netlify.
+5. GitHub Pages solo sirve la página estática. Para mantener el chatbot operativo usa el despliegue en Netlify con la función incluida.
+
+La carpeta dist se genera con npm run build; no se sube junto al código fuente.

@@ -1,0 +1,23 @@
+/* Refinamientos incrementales: misma estructura y funciones. */
+html{scrollbar-gutter:stable;scroll-padding-top:calc(var(--header-h) + 18px)}
+:root{color-scheme:dark;--muted:#a3b2c9}[data-theme="light"]{color-scheme:light;--muted:#526078}
+.reading-progress span{width:100%;transform:scaleX(0);transform-origin:left;will-change:transform}
+.loader{transition:opacity .18s,visibility .18s}.loader__bar span{animation-duration:.18s}
+.reveal-up,.reveal-card{will-change:auto}
+.hero.section{padding-top:calc(var(--header-h) + 48px);padding-bottom:64px}.hero__grid{gap:48px}.hero__summary{line-height:1.8}.hero__role{min-height:42px}
+.hero__actions .btn--primary,.contact-form .btn--primary{min-height:50px}
+.section{padding:92px 0}.section-heading{margin-bottom:38px}.section-heading h2{font-size:clamp(2.25rem,4vw,4rem);line-height:1.08}.profile-intro{gap:30px;margin-bottom:32px}.profile-intro p{font-size:.97rem;line-height:1.8}
+.expertise-card,.timeline-card,.project-card,.skill-group{transition:border-color .18s,box-shadow .18s,transform .18s}
+.expertise-card:hover{transform:translateY(-3px)}.expertise-card{padding:24px}.project-body>p:not(.mono){line-height:1.75}.timeline-card>p{line-height:1.75}
+.technology-logo{font-size:.67rem;min-height:40px;border-radius:11px}.technology-logo img{width:22px;height:22px}.technology-logos{gap:8px}
+.btn{transition:transform .16s,border-color .16s,box-shadow .16s}.btn:active{transform:translateY(0) scale(.98)}
+.nav-links a{display:inline-flex;align-items:center;min-height:44px}.nav-links a:after{bottom:3px}
+.skill-group{position:relative}.skill-group__head{min-height:60px}.skill-group__head:hover{background:rgba(56,189,248,.04)}.skill-chevron{transition:transform .18s}
+.contact-form input,.contact-form textarea,.contact-form select{transition:border-color .16s,box-shadow .16s}.contact-form input:focus,.contact-form textarea:focus,.contact-form select:focus{border-color:var(--cyan);box-shadow:0 0 0 3px rgba(34,211,238,.08)}
+.filter-btn{min-height:44px}.contact-handoff .text-btn{min-height:36px}.footer{padding-bottom:100px}
+.cv-chat__launcher{transition:border-color .18s,box-shadow .18s}.cv-chat__launcher:hover{border-color:var(--cyan)}.cv-chat__panel{max-width:calc(100vw - 24px)}
+.cursor-glow{left:0;top:0;opacity:.6}.orbit{animation-duration:40s}.orbit--b{animation-duration:50s}.profile-scan{display:none}
+@media(max-width:900px){.hero.section{padding:106px 0 52px}.hero__copy{order:0}.hero__visual{order:1}.hero__grid{gap:32px}.section{padding:68px 0}.nav-panel{overflow-y:auto;overscroll-behavior:contain}.nav-links a{display:flex;font-size:.92rem;min-height:46px}.section-heading{margin-bottom:28px}.nav-close{flex-shrink:0}.profile-orbit{width:min(300px,78vw)}.nav-cv{margin-top:12px;flex-shrink:0}}
+@media(max-width:650px){.hero h1{font-size:clamp(2.4rem,12.7vw,3.8rem);line-height:1.02}.hero__summary{font-size:.91rem}.hero__role{margin:18px 0 12px}.quick-info{gap:12px;margin:20px 0;font-size:.72rem}.section-heading h2{font-size:2.35rem}.section{padding:58px 0}.expertise-card{padding:20px}.contact-form input,.contact-form textarea,.contact-form select,.cv-chat__form input{font-size:16px}.technology-logo{font-size:.63rem}.technology-strip>p{font-size:.61rem}.cv-chat__launcher{width:52px;height:52px;min-height:52px;padding:9px;justify-content:center}.cv-chat__launcher #chat-toggle-label{display:none}.cv-chat__panel{bottom:64px}.contact-buttons .btn{min-height:44px}.profile-intro p{font-size:.92rem}.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stats-grid article{padding:16px 10px;border-right:0}.stats-grid strong{font-size:2.5rem}.stats-grid span{font-size:.68rem}.cursor-glow,.orbit{display:none}.toast{right:76px;bottom:20px;max-width:calc(100vw - 96px)}}
+@media(prefers-reduced-motion:reduce){.orbit,.cursor-glow{display:none}.hero__role{min-height:42px}}
+.site-update{position:fixed;left:18px;bottom:max(18px,env(safe-area-inset-bottom));z-index:1600;max-width:calc(100vw - 100px);padding:12px 16px;border:1px solid var(--cyan);border-radius:12px;background:var(--surface-solid);color:var(--text);box-shadow:var(--shadow);font-size:.75rem;text-align:left}.site-update:disabled{opacity:.6;cursor:wait}
