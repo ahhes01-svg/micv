@@ -95,6 +95,20 @@ Lógica y textos español/inglés: `js/contact.js`. Para enviar correos directam
 
 ## 6. Publicar en Netlify
 
+## Publicar en Vercel
+
+La raíz del proyecto en Vercel debe ser la carpeta que contiene `package.json`, `index.html` y `vercel.json`. Si esos archivos están en la raíz del repositorio, deje Root Directory vacío (`./`). Si se subió una carpeta envolvente, seleccione esa carpeta, por ejemplo `PARA-SUBIR-GITHUB` o `cv-zahir`.
+
+Configuración: Framework Preset **Other**, Build Command **npm run build**, Output Directory **dist**. `vercel.json` declara estos valores. Vercel publica los archivos generados y detecta `api/chat.mjs` como función `/api/chat`; el servidor local `server.mjs` no se usa para servir la página en Vercel.
+
+Para el chatbot, cree `GEMINI_API_KEY` y opcionalmente `GEMINI_MODEL` en Settings > Environment Variables, para Production y los entornos que necesite, y haga un nuevo despliegue. Nunca subir `.env` a GitHub. La función aplica 12 solicitudes por minuto por instancia cálida; en un entorno distribuido esto no es un límite global. Para límites globales utilice las reglas del Firewall de Vercel.
+
+Si aparece «No encontrado», compruebe Root Directory y que el último despliegue contiene `dist/index.html`. Después de subir `vercel.json` y `api/chat.mjs`, haga Redeploy. No configure `npm start` como Build Command ni `server.mjs` como página de entrada.
+
+Documentación: [configuración de Vercel](https://vercel.com/docs/project-configuration/vercel-json), [funciones Node.js](https://vercel.com/docs/functions/runtimes/node-js).
+
+## Configuración de Netlify
+
 Arrastre la carpeta `cv-zahir` al panel **Deploys** de Netlify o conecte el repositorio. No requiere comando de build y el directorio publicado es la raíz del proyecto.
 
 ## 7. Publicar en cPanel
