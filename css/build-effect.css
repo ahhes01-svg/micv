@@ -84,4 +84,5 @@
   .bp-grid__label{display:none}
   .bp__tag{font-size:9px}
 }
-@media(prefers-reduced-motion:reduce){.bp,.bp-grid,.bp-hud{display:none!important}}
+/* Se muestra siempre, incluso con las animaciones del sistema desactivadas */
+@media(prefers-reduced-motion:reduce){.bp-hud{transition:opacity .3s,transform .3s!important}.bp-hud__dot{animation:bp-blink 1s steps(2) infinite!important}}

@@ -4,7 +4,8 @@
  *   1. --draw : se dibuja el contorno y el wireframe (esqueleto calcado del contenido real)
  *   2. --wipe : una línea de escaneo "pinta" el diseño final de izquierda a derecha
  *   3. --done : desaparecen las guías del editor (asas y etiqueta)
- * Si se vuelve a subir, el bloque se des-construye. Respeta prefers-reduced-motion.
+ * Si se vuelve a subir, el bloque se des-construye. Se activa siempre, aunque el sistema
+ * tenga las animaciones desactivadas.
  */
 (() => {
   const TARGETS = [
@@ -21,8 +22,7 @@
   const BUILD_EVENT = "buildprogress";
 
   window.initBuildEffect = function () {
-    const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduced || !window.gsap || !window.ScrollTrigger) return new Set();
+    if (!window.gsap || !window.ScrollTrigger) return new Set();
     gsap.registerPlugin(ScrollTrigger);
     document.documentElement.classList.add("bp-on");
 
