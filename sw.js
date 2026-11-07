@@ -1,5 +1,5 @@
 /* Generado por scripts/generate-cache.mjs. No editar sw.js manualmente. */
-const VERSION='f21f7579f83b';
+const VERSION='736bc6754044';
 const BASE=new URL('./',self.location.href);
 const PREFIX=`zahir-${encodeURIComponent(BASE.pathname)}-`;
 const CORE=`${PREFIX}core-${VERSION}`,RUNTIME=`${PREFIX}images-${VERSION}`;
@@ -15,6 +15,7 @@ const URLS=[
   "css/chatbot.css?v=acae199645c9",
   "css/refinements.css?v=9e71bf1c87de",
   "css/ux-polish.css?v=309c27e484ec",
+  "css/build-effect.css?v=6e5862e90906",
   "assets/images/technologies/powerbi.svg?v=f9541e3456e5",
   "assets/images/technologies/microsoftexcel.svg?v=3764dfce856c",
   "assets/images/technologies/lucidchart.svg?v=a8fb9f61eeea",
@@ -36,7 +37,8 @@ const URLS=[
   "assets/vendor/swiper-bundle.min.js?v=517e6bfba591",
   "js/translations.js?v=6075cd7b7e97",
   "js/certificates.js?v=24801a12a135",
-  "js/animations.js?v=81713cd66446",
+  "js/build-effect.js?v=016777df5513",
+  "js/animations.js?v=43eb14b38bba",
   "js/main.js?v=0403f932f7d6",
   "js/contact.js?v=b2f94372f95f",
   "js/project-cases.js?v=f0ae2d6a5d52",
