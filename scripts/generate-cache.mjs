@@ -8,7 +8,7 @@ const versions=new Map();
 for(const match of references){const name=match[1];if(!versions.has(name))versions.set(name,hash(await readFile(new URL(name,root))));}
 html=html.replace(/((?:src|href)=")((?:assets|css|js)\/[^"?]+|manifest\.json)(?:\?v=[a-f0-9]+)?"/g,(_,prefix,name)=>`${prefix}${name}?v=${versions.get(name)}"`);
 await writeFile(new URL('index.html',root),html);
-const essential=['index.html',...versions.keys()].filter(name=>name==='index.html'||/^(css\/|js\/|assets\/vendor\/.*\.(js|css)$|assets\/images\/(profile\/zahir-profile-mirada-natural\.png|technologies\/.*\.svg|backgrounds\/(favicon|zahir-assistant)\.svg)$|manifest\.json$)/.test(name));
+const essential=['index.html',...versions.keys()].filter(name=>name==='index.html'||/^(css\/|js\/|assets\/vendor\/.*\.(js|css)$|assets\/images\/(profile\/zahir-profile-mirada-natural\.webp|technologies\/.*\.svg|backgrounds\/(favicon|zahir-assistant)\.svg)$|manifest\.json$)/.test(name));
 const urls=essential.map(name=>name==='index.html'?name:`${name}?v=${versions.get(name)}`);
 const template=await readFile(new URL('scripts/sw-template.js',root),'utf8');
 const version=hash(html+urls.join('\n')+template);

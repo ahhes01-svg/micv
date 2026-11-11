@@ -23,7 +23,7 @@
   <link rel="manifest" href="manifest.json?v=7dcc19a6850c">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="assets/images/profile/zahir-profile-mirada-natural.png?v=04031127ea87" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/profile/zahir-profile-mirada-natural.webp?v=e9220496e916" type="image/webp" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/swiper-bundle.min.css?v=ef7ee2f59686">
   <link rel="stylesheet" href="css/styles.css?v=bb3005900f06">
@@ -104,7 +104,7 @@
           <div class="profile-orbit" id="profile-orbit">
             <div class="orbit orbit--a"><span></span></div><div class="orbit orbit--b"><span></span></div>
             <div class="profile-frame">
-              <img decoding="async" src="assets/images/profile/zahir-profile-mirada-natural.png?v=04031127ea87" width="1122" height="1402" alt="Retrato profesional de Zahir Andres Huamán Hernández" fetchpriority="high">
+              <img decoding="async" src="assets/images/profile/zahir-profile-mirada-natural.webp?v=e9220496e916" width="900" height="1125" alt="Retrato profesional de Zahir Andres Huamán Hernández" fetchpriority="high">
               <div class="profile-scan" aria-hidden="true"></div>
             </div>
             <span class="floating-chip chip--one">N1 / N2</span><span class="floating-chip chip--two">WEB</span><span class="floating-chip chip--three">DATA</span>
@@ -136,7 +136,7 @@
     <section class="stats-section" aria-label="Indicadores profesionales">
       <div class="container stats-grid">
         <article><strong class="counter" data-target="4">0</strong><span data-i18n="stats.experiences">Experiencias profesionales</span></article>
-        <article><strong class="counter" data-target="5">0</strong><span data-i18n="stats.projects">Proyectos web destacados</span></article>
+        <article><strong class="counter" data-target="6">0</strong><span data-i18n="stats.projects">Proyectos web destacados</span></article>
         <article><strong class="counter" data-target="11">0</strong><span data-i18n="stats.certificates">Certificaciones y credenciales</span></article>
         <article><strong><i data-lucide="layers-3"></i></strong><span data-i18n="stats.areas">Datos · Web · Soporte</span></article>
       </div>
@@ -224,6 +224,13 @@
               <div class="project-screenshot"><img decoding="async" src="assets/images/projects/soporte-it-bitel.webp?v=58c9e8d0bb31" width="1440" height="900" loading="lazy" alt="Vista previa de la Plataforma de Soporte IT Bitel"></div>
             </div>
             <div class="project-body"><p class="mono">PLATAFORMA DE SOPORTE</p><h3>Plataforma de Soporte IT Bitel</h3><p>Diseño y desarrollo de una solución para agilizar solicitudes e incidencias técnicas.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span></div><div class="card-actions"><a class="text-btn" href="https://it-bitelz.kesug.com" target="_blank" rel="noopener noreferrer">Visitar proyecto <i data-lucide="external-link"></i></a><button class="text-btn project-details">Ver detalles <i data-lucide="arrow-up-right"></i></button></div></div>
+          </article>
+          <article class="project-card reveal-card" data-project="salud">
+            <div class="project-preview" data-fallback-title="JM Salud Integral" data-fallback-category="Sitio web de salud">
+              <div class="project-browser-bar"><div class="browser-dots" aria-hidden="true"><span></span><span></span><span></span></div><span class="browser-url">salud-integral-jm.vercel.app</span></div>
+              <div class="project-screenshot"><img decoding="async" src="assets/images/projects/salud-integral-jm.webp?v=b330c4bd479e" width="1440" height="900" loading="lazy" alt="Vista previa del sitio web de JM Salud Integral"></div>
+            </div>
+            <div class="project-body"><p class="mono">SITIO WEB DE SALUD</p><h3>JM Salud Integral</h3><p>Sitio web para un consultorio de medicina y psicología en Ica, con servicios, equipo y reserva de citas por WhatsApp.</p><div class="tags"><span>React</span><span>Vite</span><span>Responsive</span><span>WhatsApp</span></div><div class="card-actions"><a class="text-btn" href="https://salud-integral-jm.vercel.app/" target="_blank" rel="noopener noreferrer">Visitar proyecto <i data-lucide="external-link"></i></a><button class="text-btn project-details">Ver detalles <i data-lucide="arrow-up-right"></i></button></div></div>
           </article>
         </div>
       </div>
@@ -323,7 +330,7 @@
     <button class="cv-chat__launcher" id="chat-toggle" type="button" aria-expanded="false" aria-controls="chat-panel"><img decoding="async" class="cv-chat__logo" src="assets/images/backgrounds/zahir-assistant.svg?v=e84c65fa7722" width="32" height="32" alt="" aria-hidden="true"><span id="chat-toggle-label">Pregúntame sobre mi CV</span></button>
   </aside>
 
-  <script src="assets/vendor/lucide.min.js?v=3411692820cb" defer></script>
+  <script src="assets/vendor/lucide-subset.js?v=487563fe20df" defer></script>
   <script src="assets/vendor/typed.umd.js?v=58424467abb3" defer></script>
   <script src="assets/vendor/gsap.min.js?v=28033e449a31" defer></script>
   <script src="assets/vendor/ScrollTrigger.min.js?v=ad33c2df9ada" defer></script>
@@ -333,9 +340,9 @@
   <script src="js/company-logos.js?v=35f55e8a4874" defer></script>
   <script src="js/build-effect.js?v=85d42bab89cb" defer></script>
   <script src="js/animations.js?v=d9ba01072a7b" defer></script>
-  <script src="js/main.js?v=0403f932f7d6" defer></script>
+  <script src="js/main.js?v=5e67c1e9b8f3" defer></script>
   <script src="js/contact.js?v=b2f94372f95f" defer></script>
-  <script src="js/project-cases.js?v=f0ae2d6a5d52" defer></script>
+  <script src="js/project-cases.js?v=5a16168a7366" defer></script>
   <script src="js/chatbot.js?v=609a05a01763" defer></script>
   <script src="js/ux.js?v=435668563713" defer></script>
   <script src="js/performance.js?v=50264748f844" defer></script>

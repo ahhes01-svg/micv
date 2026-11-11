@@ -24,6 +24,7 @@ PROYECTOS:
 - Río Ica: https://rioica.camaraica.org.pe — desarrollo y administración de portal institucional.
 - Concurso del Vino: https://concursovino.camaraica.org.pe — implementación, actualización y mantenimiento de portal de evento.
 - Plataforma de Soporte IT Bitel: https://it-bitelz.kesug.com — solución para solicitudes e incidencias técnicas, HTML/CSS/JavaScript/PHP.
+- JM Salud Integral: https://salud-integral-jm.vercel.app — sitio web para un consultorio de medicina y psicología en Ica, React/Vite, responsivo, citas por WhatsApp.
 CERTIFICACIONES Y CREDENCIALES:
 - Título profesional técnico SENATI (5 mayo 2025).
 - Certificado de labores en soporte TI, Cámara de Comercio de Ica, periodo 2022–2024. Su periodo difiere del listado de experiencia; si se pregunta, indicar la diferencia y recomendar confirmarla con Zahir.

@@ -1,4 +1,5 @@
 import { cp, mkdir } from 'node:fs/promises';
+await import('./build-lucide-subset.mjs');
 await import('./generate-cache.mjs');
 const root = new URL('../', import.meta.url);
 await mkdir(new URL('dist/', root), { recursive: true });

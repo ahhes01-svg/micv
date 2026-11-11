@@ -1,5 +1,5 @@
 /* Generado por scripts/generate-cache.mjs. No editar sw.js manualmente. */
-const VERSION='d42e62f14ffe';
+const VERSION='f16f526ca7c6';
 const BASE=new URL('./',self.location.href);
 const PREFIX=`zahir-${encodeURIComponent(BASE.pathname)}-`;
 const CORE=`${PREFIX}core-${VERSION}`,RUNTIME=`${PREFIX}images-${VERSION}`;
@@ -7,7 +7,7 @@ const URLS=[
   "index.html",
   "assets/images/backgrounds/favicon.svg?v=f982bb9dd8cb",
   "manifest.json?v=7dcc19a6850c",
-  "assets/images/profile/zahir-profile-mirada-natural.png?v=04031127ea87",
+  "assets/images/profile/zahir-profile-mirada-natural.webp?v=e9220496e916",
   "assets/vendor/swiper-bundle.min.css?v=ef7ee2f59686",
   "css/styles.css?v=bb3005900f06",
   "css/animations.css?v=97c95008de0c",
@@ -31,7 +31,7 @@ const URLS=[
   "assets/images/technologies/wordpress.svg?v=0d45778b7cb8",
   "assets/images/technologies/php.svg?v=73160274ce28",
   "assets/images/backgrounds/zahir-assistant.svg?v=e84c65fa7722",
-  "assets/vendor/lucide.min.js?v=3411692820cb",
+  "assets/vendor/lucide-subset.js?v=487563fe20df",
   "assets/vendor/typed.umd.js?v=58424467abb3",
   "assets/vendor/gsap.min.js?v=28033e449a31",
   "assets/vendor/ScrollTrigger.min.js?v=ad33c2df9ada",
@@ -41,9 +41,9 @@ const URLS=[
   "js/company-logos.js?v=35f55e8a4874",
   "js/build-effect.js?v=85d42bab89cb",
   "js/animations.js?v=d9ba01072a7b",
-  "js/main.js?v=0403f932f7d6",
+  "js/main.js?v=5e67c1e9b8f3",
   "js/contact.js?v=b2f94372f95f",
-  "js/project-cases.js?v=f0ae2d6a5d52",
+  "js/project-cases.js?v=5a16168a7366",
   "js/chatbot.js?v=609a05a01763",
   "js/ux.js?v=435668563713",
   "js/performance.js?v=50264748f844"
