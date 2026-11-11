@@ -1,0 +1,15 @@
+/* Logos de las empresas en la línea de tiempo de experiencia */
+.timeline-head{align-items:center}
+.timeline-title{flex:1;min-width:0}
+.company-logo{position:relative;flex:0 0 56px;width:56px;height:56px;display:grid;place-items:center;overflow:hidden;
+  border-radius:14px;background:#fff;border:1px solid var(--border);box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.company-logo img{position:absolute;inset:7px;width:calc(100% - 14px);height:calc(100% - 14px);object-fit:contain}
+.company-logo b{font:700 .8rem/1 var(--font-mono);letter-spacing:.02em;color:#0b1220}
+.company-logo.has-logo b{visibility:hidden}
+.company-logo:not(.has-logo){background:linear-gradient(135deg,rgba(34,211,238,.16),rgba(139,92,246,.16));box-shadow:none}
+.company-logo:not(.has-logo) b{color:var(--cyan)}
+@media(max-width:640px){
+  .company-logo{flex-basis:46px;width:46px;height:46px;border-radius:12px}
+  .company-logo img{inset:6px;width:calc(100% - 12px);height:calc(100% - 12px)}
+  .timeline-head .role-icon{display:none}
+}
