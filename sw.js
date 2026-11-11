@@ -1,5 +1,5 @@
 /* Generado por scripts/generate-cache.mjs. No editar sw.js manualmente. */
-const VERSION='f13841511c26';
+const VERSION='d42e62f14ffe';
 const BASE=new URL('./',self.location.href);
 const PREFIX=`zahir-${encodeURIComponent(BASE.pathname)}-`;
 const CORE=`${PREFIX}core-${VERSION}`,RUNTIME=`${PREFIX}images-${VERSION}`;
@@ -16,6 +16,7 @@ const URLS=[
   "css/refinements.css?v=9e71bf1c87de",
   "css/ux-polish.css?v=309c27e484ec",
   "css/build-effect.css?v=c33a6e48d394",
+  "css/company-logos.css?v=001ef1b58f47",
   "assets/images/technologies/powerbi.svg?v=f9541e3456e5",
   "assets/images/technologies/microsoftexcel.svg?v=3764dfce856c",
   "assets/images/technologies/lucidchart.svg?v=a8fb9f61eeea",
@@ -37,6 +38,7 @@ const URLS=[
   "assets/vendor/swiper-bundle.min.js?v=517e6bfba591",
   "js/translations.js?v=6075cd7b7e97",
   "js/certificates.js?v=24801a12a135",
+  "js/company-logos.js?v=35f55e8a4874",
   "js/build-effect.js?v=85d42bab89cb",
   "js/animations.js?v=d9ba01072a7b",
   "js/main.js?v=0403f932f7d6",
