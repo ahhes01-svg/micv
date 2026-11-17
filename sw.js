@@ -1,5 +1,5 @@
 /* Generado por scripts/generate-cache.mjs. No editar sw.js manualmente. */
-const VERSION='f16f526ca7c6';
+const VERSION='0050411e4b70';
 const BASE=new URL('./',self.location.href);
 const PREFIX=`zahir-${encodeURIComponent(BASE.pathname)}-`;
 const CORE=`${PREFIX}core-${VERSION}`,RUNTIME=`${PREFIX}images-${VERSION}`;
@@ -41,9 +41,9 @@ const URLS=[
   "js/company-logos.js?v=35f55e8a4874",
   "js/build-effect.js?v=85d42bab89cb",
   "js/animations.js?v=d9ba01072a7b",
-  "js/main.js?v=5e67c1e9b8f3",
+  "js/main.js?v=86a43f6e8ce0",
   "js/contact.js?v=b2f94372f95f",
-  "js/project-cases.js?v=5a16168a7366",
+  "js/project-cases.js?v=8f9ce16966a5",
   "js/chatbot.js?v=609a05a01763",
   "js/ux.js?v=435668563713",
   "js/performance.js?v=50264748f844"

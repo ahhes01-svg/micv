@@ -25,6 +25,7 @@ PROYECTOS:
 - Concurso del Vino: https://concursovino.camaraica.org.pe — implementación, actualización y mantenimiento de portal de evento.
 - Plataforma de Soporte IT Bitel: https://it-bitelz.kesug.com — solución para solicitudes e incidencias técnicas, HTML/CSS/JavaScript/PHP.
 - JM Salud Integral: https://salud-integral-jm.vercel.app — sitio web para un consultorio de medicina y psicología en Ica, React/Vite, responsivo, citas por WhatsApp.
+- Inventario Indyrmel (demo): https://indyrmel-inventario.vercel.app — sistema de ventas, compras e inventario para Indyrmel E.I.R.L., distribuidora de abarrotes: boletas y facturas, ventas al crédito y cobranza, órdenes de compra a proveedores, lotes con vencimiento, kardex, reportes de ventas, rotación, compras, cuentas por cobrar, valorización y mermas, uso en celular. Es una demo con datos de ejemplo (usuario demo / indyrmel2026); el cliente usa la versión final en su tienda.
 CERTIFICACIONES Y CREDENCIALES:
 - Título profesional técnico SENATI (5 mayo 2025).
 - Certificado de labores en soporte TI, Cámara de Comercio de Ica, periodo 2022–2024. Su periodo difiere del listado de experiencia; si se pregunta, indicar la diferencia y recomendar confirmarla con Zahir.
