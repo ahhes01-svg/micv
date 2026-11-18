@@ -50,5 +50,9 @@
   {
     "name": "powerbi",
     "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.0.0/icons/powerbi.svg"
+  },
+  {
+    "name": "moodle",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/moodle.svg"
   }
 ]

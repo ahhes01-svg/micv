@@ -1,5 +1,5 @@
 /* Generado por scripts/generate-cache.mjs. No editar sw.js manualmente. */
-const VERSION='0050411e4b70';
+const VERSION='58939ae526c6';
 const BASE=new URL('./',self.location.href);
 const PREFIX=`zahir-${encodeURIComponent(BASE.pathname)}-`;
 const CORE=`${PREFIX}core-${VERSION}`,RUNTIME=`${PREFIX}images-${VERSION}`;
@@ -29,6 +29,7 @@ const URLS=[
   "assets/images/technologies/openai.svg?v=a46b5cb87e47",
   "assets/images/technologies/python.svg?v=a762008752dc",
   "assets/images/technologies/wordpress.svg?v=0d45778b7cb8",
+  "assets/images/technologies/moodle.svg?v=4ed5ca73514c",
   "assets/images/technologies/php.svg?v=73160274ce28",
   "assets/images/backgrounds/zahir-assistant.svg?v=e84c65fa7722",
   "assets/vendor/lucide-subset.js?v=487563fe20df",

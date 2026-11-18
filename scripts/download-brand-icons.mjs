@@ -1,7 +1,7 @@
 import {mkdir,writeFile,readFile} from 'node:fs/promises';
 const dir=new URL('../assets/images/technologies/',import.meta.url);
 await mkdir(dir,{recursive:true});
-const colors={javascript:'#F7DF1E',react:'#61DAFB',typescript:'#3178C6',css3:'#1572B6',html5:'#E34F26',claude:'#D97757',openai:'#10A37F',python:'#3776AB',wordpress:'#21759B',php:'#777BB4',powerbi:'#F2C811',microsoftexcel:'#217346',lucidchart:'#F96B13'};
+const colors={javascript:'#F7DF1E',react:'#61DAFB',typescript:'#3178C6',css3:'#1572B6',html5:'#E34F26',claude:'#D97757',openai:'#10A37F',python:'#3776AB',wordpress:'#21759B',php:'#777BB4',powerbi:'#F2C811',microsoftexcel:'#217346',lucidchart:'#F96B13',moodle:'#F98012'};
 const aliases={powerbi:['https://raw.githubusercontent.com/simple-icons/simple-icons/11.0.0/icons/powerbi.svg'],microsoftexcel:['https://raw.githubusercontent.com/simple-icons/simple-icons/11.0.0/icons/microsoftexcel.svg'],lucidchart:['https://raw.githubusercontent.com/simple-icons/simple-icons/13.0.0/icons/lucid.svg','https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/lucidchart.svg']};
 const selected=process.argv.slice(2);
 const sources=await readFile(new URL('sources.json',dir),'utf8').then(JSON.parse).catch(()=>[]);
